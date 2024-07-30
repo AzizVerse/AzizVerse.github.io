@@ -1,0 +1,579 @@
+
+ 
+   /* about section*/
+  @media only screen and (min-width: 320px)and (max-width: 1190px) {
+    .about-image img {
+        width: auto; /* Example width */
+        /* Example box shadow */
+    }
+    .about-text {
+        
+        top:390px;
+        left: auto;
+        width: auto;
+     }
+    
+  }
+  @media only screen and (min-width: 320px)and (max-width: 400px) {
+    .tor{
+        width: 30px;
+    }
+    .about-image img {
+      width: 350px; /* Example width */
+      /* Example box shadow */
+  }
+  .about-text {
+    
+    top:270px;
+      
+    width: auto;
+ }
+  
+    
+  }
+  @media only screen and (min-width: 401px)and (max-width: 520px) {
+    .tor{
+        width: 30px;
+    }
+    .about-image img {
+      width: 450px; /* Example width */
+      /* Example box shadow */
+  }
+  .about-text {
+    
+    top:270px;
+
+    width: 500px;
+ }
+}
+ @media only screen and (min-width: 521px)and (max-width: 650px) {
+  .tor{
+      width: 30px;
+  }
+  .about-image img {
+    width: 550px; /* Example width */
+    /* Example box shadow */
+}
+.about-text {
+  
+  top:270px;
+
+  width: 500px;
+}
+  
+    
+  }
+
+
+  
+   /* certif section*/
+   @media only screen and (min-width: 320px)and (max-width: 1190px) {
+    .contenu_carou_auto {
+     
+        margin: 2rem auto;
+        width: 420px;
+        height: 279px;
+        perspective: 8000px;
+    }
+    
+    .caroussel-image {
+        animation: rotation 40s infinite linear;
+        transform-style: preserve-3d;
+        position: relative;
+    }
+    
+    .caroussel-image img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        filter: drop-shadow(0 12px 5px hsla(0, 0%, 0%, .4));
+        width: 350px;
+        height: 216px;
+        outline: 1px solid transparent;
+        backface-visibility: hidden;
+    }
+    
+  }
+  @media only screen and (min-width: 320px)and (max-width: 500px) {
+    .contenu_carou_auto {
+     
+        margin: 2rem auto;
+        width: 420px;
+        height: 279px;
+        perspective: 8000px;
+    }
+    
+    .caroussel-image {
+        animation: rotation 40s infinite linear;
+        transform-style: preserve-3d;
+        position: relative;
+    }
+    
+    .caroussel-image img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        filter: drop-shadow(0 12px 5px hsla(0, 0%, 0%, .4));
+        width: 350px;
+        height: 216px;
+        outline: 1px solid transparent;
+        backface-visibility: hidden;
+    }
+    .rim{
+        font-size: 18px;
+    }
+    
+  }
+  /* project section*/
+  
+  @media only screen and (min-width: 1300px)and (max-width: 1480px) {
+    .allofit{
+        width: 1100px;
+        
+      }
+    
+  }
+  @media only screen and (min-width: 1200px)and (max-width: 1300px) {
+    .allofit{
+        width: 1000px;
+        
+      }
+    
+  }
+  @media only screen and (min-width: 1100px)and (max-width: 1200px) {
+    .allofit{
+        width: 900px;
+        
+      }
+    
+  }
+  @media only screen and (min-width: 1000px)and (max-width: 1100px) {
+    .allofit{
+        width: 750px;
+        
+      }
+    
+  }
+  @media only screen and (min-width: 900px)and (max-width: 1000px) {
+    .allofit{
+        width: 680px;
+        
+      }
+      .im1{
+        width: 350px;
+        height: 350px;
+      }
+      .slidert .boxt .bgt {
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 10%;
+        transform: skewX(7deg);
+        position: absolute;
+        height: 100%;
+        left: -10%;
+        padding-left: 20rem;
+        transform-origin: 0 100%;
+      }
+    
+  }
+  @media only screen and (min-width: 800px)and (max-width: 900px) {
+    .allofit{
+        width: 590px;
+        height: auto;
+        
+      }
+      .im1{
+        width: 320px;
+        height: 320px;
+      }
+      .h1t{
+       font-size: 25px;
+      }
+      .slidert .boxt .bgt {
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 5%;
+        transform: skewX(7deg);
+        position: absolute;
+        height: 100%;
+        left: -10%;
+        padding-left: 20rem;
+        transform-origin: 0 100%;
+      }
+    
+  }
+  @media only screen and (min-width: 768px)and (max-width: 800px) {
+    .allofit{
+        width: 500px;
+        
+      }
+      .im1{
+        width: 260px;
+        height: 260px;
+      }
+      .h1t{
+        font-size: 25px;
+       }
+       .slidert .boxt .bgt {
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 1%;
+        transform: skewX(7deg);
+        position: absolute;
+        height: 100%;
+        left: -10%;
+        padding-left: 20rem;
+        transform-origin: 0 100%;
+      }
+      
+  }
+  @media only screen and (min-width: 585px)and (max-width: 768px) {
+    .allofit{
+        width: auto;
+        
+      }
+      .im1{
+        width: 300px;
+        height: 300px;
+      }
+      .slidert .boxt .bgt {
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 1%;
+        transform: skewX(7deg);
+        position: absolute;
+        height: 100%;
+        left: -10%;
+        padding-left: 20rem;
+        transform-origin: 0 100%;
+      }
+      
+    
+  }
+  @media only screen and (min-width: 520px)and (max-width: 585px) {
+    .allofit{
+        width: auto;
+        
+      }
+      .im1{
+        width: 260px;
+        height: 260px;
+        
+      }
+      .slidert .boxt .bgt {
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 1%;
+        transform: skewX(7deg);
+        position: absolute;
+        height: 100%;
+        left: -10%;
+        padding-left: 20rem;
+        transform-origin: 0 100%;
+      }
+
+
+    
+  }
+  @media only screen and (min-width: 480px)and (max-width: 520px) {
+    .allofit{
+        width: auto;
+        
+      }
+      .im1{
+        width: 220px;
+        height: 220px;
+        
+      }
+
+     .h1t{
+        font-size: 16px;
+       
+     }
+     .rch{
+        font-size: 18px;
+      }
+      .slidert .boxt .bgt {
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 1%;
+        transform: skewX(7deg);
+        position: absolute;
+        height: 100%;
+        left: -10%;
+        padding-left: 20rem;
+        transform-origin: 0 100%;
+      }
+     
+    
+  }
+  @media only screen and (min-width: 320px)and (max-width: 480px) {
+    .allofit{
+        width: auto;
+        
+      }
+      .im1{
+        width: 240px;
+        height: 240px;
+        
+      }
+
+     .h1t{
+        font-size: 16px;
+        margin-top: 30px;
+        margin-left: 30px;
+       
+     }
+     .hab .lik .pt{
+        font-size: 12px;
+     }
+     .rch{
+        font-size: 16px;
+      }
+      .slidert .boxt .bgt {
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 5%;
+        transform: skewX(7deg);
+        position: absolute;
+        height: 100%;
+        right: 50%;
+        padding-left: 20rem;
+        transform-origin: 0 100%;
+      }
+      .slidert .boxt .detailstt {
+        padding: 5rem;
+        padding-left: 10rem;
+        z-index: 100;
+        grid-column: 1/span 2;
+        grid-row: 1/-1;
+      }
+      .slidert .illustration {
+        grid-column: 1/2;
+        grid-row: 2/-1;
+        justify-self: center;
+      }
+    
+  }
+  /*contact*/
+  
+  @media only screen and (min-width: 320px)and (max-width: 768px) {
+    
+    
+  
+  #animated-text {
+    color: #eeeeee;
+    text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .avatar {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 5px white solid;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
+}
+ /* mindset section*/
+ @media only screen and (min-width: 320px)and (max-width: 600px) {
+    .ctra {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+    .rml{
+        font-size: 18px;
+    }
+    .aspect {
+        margin-top: 50px;
+      
+        
+      }
+  }
+
+  /* education*/
+  @media only screen and (min-width: 1100px)and (max-width: 1250px) {
+    .eduk{
+width: 800px;
+    
+    margin-left: 50px ;
+  }
+}
+@media only screen and (min-width: 1000px)and (max-width: 1100px) {
+    .eduk{
+width: 700px;
+    
+    margin-left: 40px ;
+    
+  }
+  .zis{
+    width: auto;
+}
+.zisk{
+    width: auto;
+    font-size: 18px;
+}
+}
+@media only screen and (min-width: 900px)and (max-width: 1000px) {
+    .eduk{
+width: 600px;
+    
+    margin-left: 30px ;
+    
+  }
+  .zis{
+    width: auto;
+}
+.zisk{
+    width: auto;
+    font-size: 18px;
+}
+}
+@media only screen and (min-width: 800px)and (max-width: 900px) {
+    .eduk{
+width: 500px;
+    
+    margin-left: 20px ;
+    
+  }
+  .zis{
+    width: auto;
+}
+.zisk{
+    width: auto;
+    font-size: 16px;
+}
+}
+@media only screen and (min-width: 768px)and (max-width: 800px) {
+    .eduk{
+
+    
+   width: 400px;
+    
+  }
+  .zis{
+    width: 400px;
+    margin-left: 0;
+}
+.zisk{
+    width: auto;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.lika{
+    display: flex; justify-content: space-around;padding: 10px; flex-direction: column;
+}
+}
+@media only screen and (min-width: 320px)and (max-width: 768px) {
+    .eduk{
+
+    
+   width: auto;
+    
+  }
+  .zis{
+    width: auto;
+    margin-left: 0;
+}
+.zisk{
+    width: auto;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.lika{
+    display: flex; justify-content: space-around;padding: 5px; flex-direction: column;
+}
+}
+/* skills*/
+@media only screen and (min-width: 1100px)and (max-width: 1150px) {
+    .liba{
+        width: 400px;
+    }
+    .stable{
+        width: 30%;
+    }
+}
+@media only screen and (min-width: 320px)and (max-width: 1100px) {
+    .liba{
+        width: 400px;
+        
+    }
+    .stable{
+        width: 30%;
+    }
+    .skills-container {
+        display: flex;
+        justify-content: space-around;
+        height: 425px;
+        flex-direction: column;
+        
+    }
+}
+
+ /* foresight*/
+ @media only screen and (min-width: 768px)and (max-width: 1280px) {
+  .cir{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: auto;
+    padding-left: 200px;
+   
+  }
+  .block{
+    margin-bottom: 100px;
+  }
+  
+  
+}
+
+
+
+@media only screen and (min-width: 540px)and (max-width: 768px) {
+  .cir{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: auto;
+    padding-left: 200px;
+   
+  }
+  .block{
+    margin-bottom: 100px;
+  }
+  
+  
+}
+@media only screen and (min-width: 320px)and (max-width: 540px) {
+  .cir{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: auto;
+    padding-left: 100px;
+   
+  }
+  .block{
+    margin-bottom: 100px;
+    width: 200px;
+  }
+  
+  
+}
+  
+
+
