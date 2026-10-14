@@ -7,14 +7,14 @@ export const profile = {
   siteUrl: 'https://azizverse.github.io', portrait: '',
   philosophy: "I've always been drawn to the space between imagination and reality. Technology gives me a way to explore that space — to question how things work, imagine how they could work differently, and build something useful from the answer."
 };
-export type Project = { id: string; name: string; subtitle: string; category: string; stage: string; description: string; role: string };
+export type Project = { id: string; name: string; subtitle: string; category: string; stage: string; description: string; benefit: string; role: string };
 export const projects: Project[] = [
-  { id: 'spendyway', name: 'SpendyWay', subtitle: 'Clarity for everyday finance.', category: 'Financial technology', stage: 'In development',
-    description: 'A personal finance venture focused on making everyday money decisions feel clearer.', role: 'Founder & software engineer.' },
-  { id: 'barmarket', name: 'MarketBeat', subtitle: 'Technology for hospitality.', category: 'Business technology', stage: 'In development',
-    description: 'A software venture exploring new possibilities for hospitality businesses.', role: 'Product builder & software engineer.' },
-  { id: 'vestia', name: 'Vestia', subtitle: 'Creativity meets technology.', category: 'Creative technology', stage: 'Exploratory',
-    description: 'An emerging venture at the intersection of fashion, creativity, and technology.', role: 'Concept development & venture exploration.' }
+  { id: 'spendyway', name: 'SpendyWay', subtitle: 'Clarity for everyday finance.', category: 'Personal Finance', stage: 'In development',
+    description: 'A personal finance venture focused on making everyday money decisions feel clearer.', benefit: 'Spend less time tracking your money and more time making better financial decisions.', role: 'Founder & software engineer.' },
+  { id: 'barmarket', name: 'MarketBeat', subtitle: 'Technology for hospitality.', category: 'Dynamic Pricing', stage: 'In development',
+    description: 'A software venture exploring new possibilities for hospitality businesses.', benefit: 'Turn ordinary shopping into an interactive market experience that engages customers and creates new pricing opportunities.', role: 'Product builder & software engineer.' },
+  { id: 'vestia', name: 'Vestia', subtitle: 'Creativity meets technology.', category: 'AI Fashion', stage: 'Exploratory',
+    description: 'An emerging venture at the intersection of fashion, creativity, and technology.', benefit: 'Create professional fashion visuals without the cost and complexity of traditional photoshoots.', role: 'Concept development & venture exploration.' }
 ];
 export const experience = [
   { company: 'Colombus Capital', role: 'Financial technology & AI automation', context: 'Software engineering · Financial operations', description: 'Engineering at the intersection of financial operations and intelligent systems: treasury workflows, FX operations, analytics, and AI-assisted transaction processing.', points: ['Treasury-as-a-Service and operational dashboards', 'Market-data integration and financial reporting', 'Email and document workflow automation', 'Coordinating and leading an eight-developer team'] },

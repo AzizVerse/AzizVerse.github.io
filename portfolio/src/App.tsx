@@ -24,17 +24,17 @@ function Modal({ title, onClose, children, className = '' }: { title: string; on
 }
 function ProjectArt({ id }: { id: string }) {
   if (id === 'spendyway') return <div className="project-art spendyway-art discreet-art">
-    <span className="art-label">FINANCIAL TECHNOLOGY</span>
+    <span className="art-label">PERSONAL FINANCE</span>
     <span className="venture-monogram">Sw<span>.</span></span>
     <div className="venture-orbit" aria-hidden="true"/>
     <span className="art-footnote">SpendyWay / In development</span>
   </div>;
   if (id === 'barmarket') return <div className="project-art market-art">
-    <span className="art-label">BUSINESS TECHNOLOGY</span>
+    <span className="art-label">DYNAMIC PRICING</span>
     <span className="venture-monogram">Mb<span>.</span></span><div className="venture-orbit" aria-hidden="true"/>
     <span className="art-footnote">MarketBeat / In development</span>
   </div>;
-  return <div className="project-art vestia-art"><span className="art-label">CREATIVE TECHNOLOGY</span>
+  return <div className="project-art vestia-art"><span className="art-label">AI FASHION</span>
     <svg viewBox="0 0 400 300" role="img" aria-label="Abstract sculptural ribbon representing fashion and creativity">
       <defs><linearGradient id="fabric" x1="0" x2="1" y1="0" y2="1"><stop stopColor="#fff0df"/><stop offset=".45" stopColor="#ce8c73"/><stop offset=".8" stopColor="#f1c3a2"/><stop offset="1" stopColor="#7f493c"/></linearGradient></defs>
       <path d="M260 12 C90 42 330 128 140 166 C50 184 85 268 200 292 C112 199 370 214 288 136 C205 58 331 46 260 12Z" fill="url(#fabric)"/>
@@ -44,7 +44,7 @@ function ProjectArt({ id }: { id: string }) {
 function CaseStudy({ project, onClose }: { project: Project; onClose: () => void }) {
   return <Modal title={project.name} onClose={onClose}>
     <p className="case-category">{project.category} <span>· {project.stage}</span></p>
-    <p className="case-lead">{project.description}</p><ProjectArt id={project.id}/>
+    <p className="case-lead">{project.description}</p><p className="project-benefit">{project.benefit}</p><ProjectArt id={project.id}/>
     <div className="case-grid"><div><h3>My involvement</h3><p>{project.role}</p></div><div><h3>Continue the conversation</h3><p>Interested in the work or a potential collaboration? I’d be happy to talk directly.</p></div></div>
     <a className="button primary" href={`mailto:${profile.email}?subject=${encodeURIComponent(`Let's discuss ${project.name}`)}`}>Let’s discuss <Arrow/></a>
   </Modal>;
@@ -116,7 +116,7 @@ export default function App() {
         <SectionHeading number="01" label="Selected ventures" title="A glimpse of my work.">A few things I’m building. The fuller story starts with a conversation.</SectionHeading>
         <div className="project-grid">{projects.map((project, index) => <article className={`project-card ${project.id} ${index === 0 ? 'featured' : ''}`} key={project.id}>
           <ProjectArt id={project.id}/><div className="project-copy"><div className="project-meta"><span>{String(index + 1).padStart(2, '0')} / {project.category}</span><span className="stage">{project.stage}</span></div>
-            <h3>{project.name}<span className="project-punctuation">{index === 0 ? '↗' : '.'}</span></h3><p className="project-subtitle">{project.subtitle}</p><p className="project-description">{project.description}</p>
+            <h3>{project.name}<span className="project-punctuation">{index === 0 ? '↗' : '.'}</span></h3><p className="project-subtitle">{project.subtitle}</p><p className="project-description">{project.description}</p><p className="project-benefit">{project.benefit}</p>
             <button className="project-link" onClick={() => setSelected(project)} aria-label={`About ${project.name}`}>A brief introduction <Arrow/></button>
           </div></article>)}</div>
         <p className="work-note">Open to thoughtful conversations with investors, partners, and collaborators.</p>
